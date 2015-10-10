@@ -65,7 +65,12 @@ public class Rectangle extends GeometricObject implements Comparable{
 
     }
 
+
     @Override
+    /*
+    this is the method that will be called in the test program
+    it is the one that is implemented. It also uses the .equals
+    */
     public int compareTo(Object o) {
        if (this.equals(o))
            return 1;
